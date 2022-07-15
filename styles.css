@@ -1,0 +1,131 @@
+body{
+  margin: 0;
+  color: darkslategrey;
+}
+div{
+  text-align: center;
+}
+p{
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.15rem;
+}
+hr{
+  margin: 40px auto;
+  width: 5%;
+  border-style: dotted none none;
+  border-width: 5px;
+  border-color: lightgrey;
+}
+h1{
+  margin: 0 auto 0;
+  font-size: 500%;
+  font-family: 'Caveat', cursive;
+  color: #53BF9D;
+}
+h2{
+  font-family: 'Lato', sans-serif;
+  color: #53BF9D;
+  font-size: 2rem;
+}
+h3{
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  color: #53BF9D;
+}
+.top_container{
+  padding-top: 175px;
+  background-color: #DFF6FF;
+  position: relative;
+}
+.top_cloud{
+  height: 13%;
+  width: 12%;
+  position: absolute;
+  bottom: 455px;
+  left: 300px;
+}
+.bottom_cloud{
+  height: 13%;
+  width: 12%;
+  position: absolute;
+  bottom: 300px;
+  right: 300px;
+}
+.image_mountain{
+  padding-top: 50px;
+}
+.middle_container{
+  margin: 50px auto 50px;
+}
+.skill-row{
+  width: 60%;
+  margin: 75px auto 100px;
+}
+.skill_h31{
+  padding-top: 10px;
+}
+.skill_image{
+  margin-top: 5px;
+  width: 18%;
+  float: left;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.skill_image1{
+  width: 146px;
+  height: 146px;
+  float: right;
+  background-color: #EB4747;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.skill_p{
+  line-height: 1.5;
+}
+.bottom_container{
+  padding: 20px 0 1px;
+  background-color: #66BFBF;
+}
+.dp{
+  width: 13%;
+}
+.copyright_para{
+  font-size: .9rem;
+}
+a{
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  color: #0078AA;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bbc7ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bbc7ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bbc7ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bbc7ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bbc7ad);
+  text-decoration: none;
+}
+.footer-link{
+  margin: auto 5px;
+}
